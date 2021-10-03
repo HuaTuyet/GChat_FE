@@ -1,0 +1,19 @@
+li{
+    position: relative;
+    cursor: pointer;
+}
+
+.active{
+    position: relative;
+    color: #f7813e;
+}
+
+.active:before{
+    content: '';
+    height: 2px;
+    background-color:  #f9c949;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    right: 0;
+}
