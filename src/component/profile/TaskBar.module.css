@@ -1,0 +1,29 @@
+.TaskBar{
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.Icon{
+    width: 15%;
+    font-size: 28px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 0px 16px;
+}
+
+.Icon:hover{
+    background-color: rgba(112, 117, 121, 0.08);
+    border-radius: 50%;
+}
+
+.IconEdit{
+    font-size: 23px;
+    padding: 3px 0;
+}
+
+.Profile{
+    width: 70%;
+    font-size: 18px;
+    text-align: left;
+}
