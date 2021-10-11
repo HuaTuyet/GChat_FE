@@ -6,7 +6,7 @@ function ChatRoom() {
   return (
     <Layout>
         <ChatHeader/> 
-        <Tabs tabsOf="chatroom"/>
+        <Tabs/>
     </Layout>
   );
 }

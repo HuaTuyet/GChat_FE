@@ -1,6 +1,6 @@
 .chatheader{
     height: 212px;
-    padding: 50px 96px;
+    display: flex;
     position: relative;
 }
 
@@ -13,6 +13,13 @@
 }
 
 .blackbox{
-    height: 100%;
+    height: 50%;
+    width: 40%;
+    margin: auto;
     background-color: black;
+}
+
+.blackbox img{
+    width: 100%;
+    height: 100%;
 }
